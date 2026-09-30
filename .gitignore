@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Datasets and generated artifacts
+data/
+datasets/
+temp/
+artifacts/
+results/
+outputs/
+checkpoints/
+model_backups/
+wandb/
+
+# Model and training files
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.log
+
+# Local backups
+*.bak
+*.bak*
+*.before_*
+
